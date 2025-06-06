@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    bat 'python hello.py'  // به جای sh از bat استفاده کن
+                    bat '"C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" hello.py'
                 }
             }
         }
